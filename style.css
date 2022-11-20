@@ -1,0 +1,371 @@
+body{
+
+}
+
+header{
+    height: 100vh;
+    background-image: url('images/HERO.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.navbarre{
+    display: flex;
+    align-items: center;
+    height: 100%;
+
+}
+.fondTransparent{
+    height: 10%;
+    background-color: #0000006b;
+}
+.lettreBleu{
+    color: #65d1ff;
+}
+.logo{
+    width: 50%;
+    color: white;
+    font-size: 24px;
+}
+
+.liensPage{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+.contour{
+    border: solid #65d1ff 4px;
+    padding-right: 10px;
+    padding-left: 10px;
+    text-align: center;
+  
+}
+.liensPage, .liens{
+    font-size: large;
+    color: white;
+}
+
+.titreSite{
+    height: 90%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: xx-large;
+    color: white;
+}
+.titreSouligne{
+    background-color: #0000004d;
+}
+
+.services{
+    background-color: rgb(8, 194, 251);
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.titreNoir{
+    margin-bottom: 0;
+    font-size: 2em;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    
+}
+.titreBlanc{
+    color: white;
+    font-size: 2em;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+
+}
+.separation{
+    height: 4px;
+    background-color: white;
+    width: 60px;
+    margin-bottom: 50px;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+.separationNoir{
+    height: 4px;
+    background-color: rgb(0, 0, 0);
+    width: 60px;
+    margin-bottom: 50px;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+.carteService{
+    display: flex;
+    flex-direction: column;
+
+
+}
+.titreService{
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+.texteBlanc{
+    color: white;
+}
+.texteNoir{
+    color: black;
+}
+
+.navPortfolio{
+    display: flex;
+    justify-content: space-between;
+}
+
+.categoriePort{
+    width: 55%;
+    display: flex;
+    justify-content: space-between;
+    height: 30px;
+}
+.portfolio{
+    padding-top: 70px;
+    margin-bottom: 70px;
+}
+.imagePortfolio{
+    height: 200px;
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.contenuPort .col-3{
+    margin-top: 30px;
+    height: 200px;
+    width: 23%;
+
+}
+.contenuPort{
+    display: flex;
+    justify-content: space-between;
+ 
+}
+
+.image1{
+    background-image: url('images/portfolio/1.png');
+    background-position: center;
+    background-size: cover;
+}
+.image2{
+    background-image: url('images/portfolio/2.png');
+    background-position: center;
+    background-size: cover;
+}
+.image3{
+    background-image: url('images/portfolio/3.png');
+    background-position: center;
+    background-size: cover;
+}
+.image4{
+    background-image: url('images/portfolio/4.png');
+    background-position: center;
+    background-size: cover;
+}
+.image5{
+    background-image: url('images/portfolio/5.png');
+    background-position: center;
+    background-size: cover;
+}
+.image6{
+    background-image: url('images/portfolio/6.png');
+    background-position: center;
+    background-size: cover;
+}
+.image7{
+    background-image: url('images/portfolio/7.png');
+    background-position: center;
+    background-size: cover;
+}.image8{
+    background-image: url('images/portfolio/8.png');
+    background-position: center;
+    background-size: cover;
+}
+
+.defaultSection{
+    background-color: rgb(64, 77, 84);
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.defaultSection .contenu{
+    width: 50%;
+}
+.infosBlanc{
+    color: white;
+}
+
+.boutonVisitMe{
+    text-decoration: none;
+    background-color: rgb(64, 77, 84);
+    border: solid rgb(40, 48, 54) 4px;
+    padding: 10px;
+    color: rgb(40, 48, 54);
+    font-weight: 600;
+    padding-left: 40px;
+    padding-right: 40px;
+
+}
+.defaultSection .contenu .texte{
+    margin-bottom: 40px;
+    padding-right: 70px;
+}
+.defaultSection .container{
+    display: flex;
+
+}
+.videoREO{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.twitter{
+    background-color: rgb(62, 181, 244);
+    padding-top: 50px;
+    padding-bottom: 70px;
+}
+
+
+.twitter .container{
+    display: flex;
+    justify-content: space-between;
+
+}
+.logoTwitter{
+    padding-right: 70px;
+}
+
+.johnDoe{
+    background-color: rgb(122, 163, 206);
+    padding-top: 70px;
+    padding-bottom: 70px;
+    
+}
+
+.johnDoe .contenuContainer{
+    display: flex;
+}
+
+.johnDoe .logo{
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+.johnDoe .contenu{
+    width: 50%;
+}
+
+.testimonials{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.testimonials .haut{
+    display: flex;
+    justify-content: space-between;
+
+    padding-right: Opx;
+    margin: 0px;
+}
+.testimonials .logoR{
+    justify-content: flex-end;
+}
+.infosBleu{
+    color: rgb(48, 206, 249);
+    font-weight: 800;
+}
+
+
+.contact{
+    background-color: rgb(122, 163, 206);
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.buttonMessage{
+    border: none;
+}
+
+.sectionHaut{
+    display: flex;
+    
+}
+
+.formulaire{
+    width: 50vw;
+}
+.infos{
+    width: 50vw;
+    padding-left: 5%;
+    padding-right: 5%;
+    color: white;
+}
+.section{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.sectionMessage{
+    margin-top: 20px;
+}
+
+.section>input{
+    background-color: rgba(255, 255, 255, 0);
+    height: 45px;
+    border-radius: 6px;
+    color: white;
+    border: solid 1px white;
+}
+.section>textarea{
+    background-color: rgba(255, 255, 255, 0);
+    height: 150px;
+    border-radius: 6px;
+    color: white;
+    border: solid 1px white;
+}
+
+.section>label{
+    color: white;
+    margin-bottom: 12px;
+    font-size: 120%;
+}
+.boutonMessage{
+    text-decoration: none;
+    background-color: #65d1ff;
+    border: none;
+    padding: 10px;
+    color: white;
+    font-weight: 400;
+    padding-left: 130px;
+    padding-right: 130px;
+}
+
+.footer{
+    background-color: rgb(48, 63, 73);
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.navFooter{
+    display: flex;
+    justify-content: space-between;
+}
+.liensFooter{
+    color: grey;
+}
+.barre{
+    margin-left: 15px;
+    margin-right: 15px;
+    height: 25px;
+    width: 2px;
+    background-color: grey;
+}
+.navLiens{
+    display: flex;
+
+}
+.copyright{
+    color: grey;
+    font-weight: 200;
+}

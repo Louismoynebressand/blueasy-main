@@ -1,1 +1,1 @@
-# blueasy-main
+# blueasy
